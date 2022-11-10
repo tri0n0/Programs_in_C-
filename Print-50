@@ -1,0 +1,19 @@
+/*This is a program that prints numbers from 1 to 50. But the program only runs correctly when we use for loop otherwise in if loop it doesn't shows anything except 1,
+which is assinged to the variable 'a' and on the other hand the while loop also doesn't show the output properly.
+
+
+#include<stdio.h>
+
+int main()
+
+{   int a = 1;
+    printf(" The numbers from 1 to 50 are: ");
+    //while(a<=50)
+   //if(a<=50)
+    //for(a = 1; a<=50; a++)
+    {
+        printf("\n %d \n",a);
+        //a++;
+    }
+    return 0;
+}
