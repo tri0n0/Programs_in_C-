@@ -7,12 +7,12 @@ which is assinged to the variable 'a' and on the other hand the while loop also 
 int main()
 
 {   int a = 1;
-    printf(" The numbers from 1 to 50 are: ");
+    cout<<" The numbers from 1 to 50 are: ";
     //while(a<=50)
    //if(a<=50)
     //for(a = 1; a<=50; a++)
     {
-        printf("\n %d \n",a);
+        cout<<"\n"<<a;
         //a++;
     }
     return 0;
