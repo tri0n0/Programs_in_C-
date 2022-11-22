@@ -17,3 +17,22 @@ int main()
     }
     return 0;
 }
+
+
+
+/*Okay to run this program using if statement we have to use the goto statement after the if statement*/
+
+#include<iostream>
+using namespace std;
+
+int main()
+
+{
+
+            int a = 0;
+            a:
+            cout<<++a<<endl;
+            if(a<50)
+                goto a;
+            return 0;
+}
